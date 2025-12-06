@@ -1,0 +1,70 @@
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# Visual Studio 文件
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.suo
+*.user
+*.db
+ipch/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# 编译输出文件
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.pch
+
+# 构建文件夹
+build/
+Build/
+Debug/
+Release/
+x64/
+x86/
+bin/
+Bin/
+obj/
+Obj/
+
+# CMake 生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# 临时文件
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+
+# 压缩包
+*.7z
+*.zip
+*.rar
+*.tar.gz
