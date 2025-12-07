@@ -1,0 +1,4 @@
+# 每行：邮箱,名字
+demo1@test.com,小明
+demo2@test.com,小红
+demo3@test.com,小刚
