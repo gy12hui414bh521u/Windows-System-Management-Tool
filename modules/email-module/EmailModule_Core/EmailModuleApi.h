@@ -32,6 +32,6 @@ namespace EmailModule
         const std::string& endTime,
         std::string& errorMsg);
     // 检查收件箱 (POP3)
-    bool CheckInbox(std::string& outputInfo, std::string& errorMsg);
+    // bool CheckInbox(std::string& outputInfo, std::string& errorMsg);
 }
 
