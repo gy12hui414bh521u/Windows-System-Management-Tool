@@ -3,12 +3,12 @@
 CS5351 Software Engineering Course Project
 
 ## Team Members
-1. [你的名字] - Logging System
-2. [队友A] - File System
-3. [队友B] - Email Module
-4. [队友C] - Process Manager
-5. [队友D] - [Other Module]
-6. [队友E] - Integration Test
+1. [YANAN WANG] - Logging System
+2. [LUYANG ZHAN] - File System
+3. [CHENNING LI] - Email Module
+4. [WEIJIAN XU] - Process Manager
+5. [ZIHAO LIU] - [String Utilities Module]
+6. [LIN CAI] - Integration Test
 
 ## Project Structure
 - `modules/file-system/` - Virtual file system with quotas
