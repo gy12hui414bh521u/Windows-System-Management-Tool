@@ -1,5 +1,5 @@
 ﻿#include "EmailModuleApi.h"
-#include "Pop3Client.h" 
+//#include "Pop3Client.h" 
 #include "Config.h"
 #include "EmailMessage.h"
 #include "SmtpClient.h"
@@ -106,16 +106,16 @@ namespace EmailModule
         return ok;
     }
 
-    bool CheckInbox(std::string& outputInfo, std::string& errorMsg) {
-        // 1. 先加载配置，为了拿到服务器 IP
-        SmtpConfig cfg;
-        if (!ConfigLoader::LoadSmtpConfig(cfg, errorMsg)) {
-            return false;
-        }
+    //bool CheckInbox(std::string& outputInfo, std::string& errorMsg) {
+    //    // 1. 先加载配置，为了拿到服务器 IP
+    //    SmtpConfig cfg;
+    //    if (!ConfigLoader::LoadSmtpConfig(cfg, errorMsg)) {
+    //        return false;
+    //    }
 
-        // 2. 启动 POP3 客户端
-        Pop3Client pop3;
-        // smtp4dev 的 POP3 端口默认是 110
-        return pop3.CheckEmailCount(cfg.serverIp, 110, outputInfo, errorMsg);
-    }
+    //    // 2. 启动 POP3 客户端
+    //    Pop3Client pop3;
+    //    // smtp4dev 的 POP3 端口默认是 110
+    //    return pop3.CheckEmailCount(cfg.serverIp, 110, outputInfo, errorMsg);
+    //}
 }
