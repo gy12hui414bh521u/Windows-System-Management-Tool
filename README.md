@@ -7,7 +7,7 @@ CS5351 Software Engineering Course Project
 2. [LUYANG ZHAN] - File System
 3. [CHENNING LI] - Email Module
 4. [WEIJIAN XU] - Process Manager
-5. [ZIHAO LIU] - [String Utilities Module]
+5. [ZIHAO LIU] - String Utilities Module
 6. [LIN CAI] - Integration Test
 
 ## Project Structure
@@ -15,7 +15,7 @@ CS5351 Software Engineering Course Project
 - `modules/logging-system/` - High-performance logging DLL
 - `modules/email-module/` - SMTP/POP3 email notifications
 - `modules/process-manager/` - Process scheduling and management
-- `modules/other-module/` - [Describe this module]
+- `modules/String Utilities Module/` - String Utilities
 - `modules/integration-test/` - Cross-module testing framework
 
 ## How to Build
